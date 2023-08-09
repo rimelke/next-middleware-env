@@ -13,6 +13,7 @@ export const middleware = (request: NextRequest) => {
     "env",
     Buffer.from(JSON.stringify(env)).toString("base64")
   );
+  response.headers.set(`x-middleware-cache`, `no-cache`);
 
   return response;
 };
