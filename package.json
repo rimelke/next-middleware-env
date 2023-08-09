@@ -1,0 +1,20 @@
+{
+  "name": "middleware-env",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "next": "^13.4.13",
+    "nookies": "^2.5.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.4.9",
+    "@types/react": "18.2.19",
+    "typescript": "5.1.6"
+  }
+}
