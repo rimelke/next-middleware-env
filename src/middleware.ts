@@ -13,7 +13,7 @@ export const middleware = (request: NextRequest) => {
     "env",
     Buffer.from(JSON.stringify(env)).toString("base64")
   );
-  response.headers.set("x-vercel-cache", "no-cache");
+  response.headers.set("cache-control", "no-store");
 
   return response;
 };
